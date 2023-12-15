@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 
-import fib
+import file_operation
 
 def main():
-    fib.sample_func()
-    fib.sample_func2()
-
+    file_operation.file_operation()
 
 if __name__ == '__main__':
     main()
